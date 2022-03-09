@@ -1,0 +1,11 @@
+# This code prints all square numers which are less than num
+
+vrbl num = ( 2 + 2 ) * 3 + 100
+vrbl index = 1
+loop num > index * index
+{
+    output index * index
+    index = index + 1
+}
+output "Are less then"
+output num

@@ -1,0 +1,17 @@
+# Comparing a with b 
+vrbl a = 0
+vrbl b = 21
+a = ( a + a + 23 + b + 55 + 34 ) + 1
+if a < b
+{
+    output "b is bigger than a"
+}
+if a > b
+{
+    output "a is bigger than b"
+}
+else
+{
+    output "a and b are equal"
+}
+
